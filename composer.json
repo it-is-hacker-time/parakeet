@@ -1,0 +1,45 @@
+{
+    "name": "classiebit/eventmie",
+    "version": "1.0.1",
+    "description": "Eventmie Lite",
+    "keywords": [
+        "eventmie-lite",
+        "events",
+        "event-management",
+        "event-planning",
+        "laravel",
+        "laravel-package",
+        "vuejs"
+    ],
+    "license": "MIT",
+    "homepage": "https://classiebit.com/eventmie",
+    "support": {
+        "issues": "https://github.com/classiebit/eventmie/issues",
+        "source": "https://github.com/classiebit/eventmie"
+    },
+    "authors": [
+        {
+            "name": "Classiebit",
+            "email": "info@classiebit.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "*",
+        "tightenco/ziggy": "*",
+        "tcg/voyager": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Classiebit\\Eventmie\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable" : true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Classiebit\\Eventmie\\EventmieServiceProvider"
+            ]
+        }
+    }
+}
